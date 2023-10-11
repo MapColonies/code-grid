@@ -1,0 +1,74 @@
+[
+    {
+        "left": 770000,
+        "bottom": 3520000,
+        "right": 780000,
+        "top": 3530000,
+        "zone": 36,
+        "hemisphere": "N",
+        "gridCodeZone": "אבג"
+    },
+    {
+        "left": 780000,
+        "bottom": 3520000,
+        "right": 790000,
+        "top": 3530000,
+        "zone": 36,
+        "hemisphere": "N",
+        "gridCodeZone": "דהו"
+    },
+    {
+        "left": 210000,
+        "bottom": 3520000,
+        "right": 220000,
+        "top": 3530000,
+        "zone": 37,
+        "hemisphere": "N",
+        "gridCodeZone": "זחט"
+    },
+    {
+        "left": 220000,
+        "bottom": 3520000,
+        "right": 230000,
+        "top": 3530000,
+        "zone": 37,
+        "hemisphere": "N",
+        "gridCodeZone": "יכל"
+    },
+    {
+        "left": 820000,
+        "bottom": 9880000,
+        "right": 830000,
+        "top": 9890000,
+        "zone": 36,
+        "hemisphere": "S",
+        "gridCodeZone": "שום"
+    },
+    {
+        "left": 830000,
+        "bottom": 9880000,
+        "right": 840000,
+        "top": 9890000,
+        "zone": 36,
+        "hemisphere": "S",
+        "gridCodeZone": "קור"
+    },
+    {
+        "left": 160000,
+        "bottom": 9880000,
+        "right": 170000,
+        "top": 9890000,
+        "zone": 37,
+        "hemisphere": "S",
+        "gridCodeZone": "אבי"
+    },
+    {
+        "left": 170000,
+        "bottom": 9880000,
+        "right": 180000,
+        "top": 9890000,
+        "zone": 37,
+        "hemisphere": "S",
+        "gridCodeZone": "בני"
+    }
+]
