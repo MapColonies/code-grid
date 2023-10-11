@@ -16,6 +16,31 @@
       "skipFiles": ["<node_internals>/**"],
       "outFiles": ["${workspaceFolder}/dist/**/*.js", "!**/node_modules/**"],
       "program": "${workspaceFolder}/src/index.ts"
-    }
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "debug file",
+      "preLaunchTask": "npm: build",
+      "sourceMaps": true,
+      "smartStep": true,
+      "internalConsoleOptions": "openOnSessionStart",
+      "cwd": "${workspaceFolder}/dist",
+      "skipFiles": ["<node_internals>/**"],
+      "outFiles": ["${workspaceFolder}/dist/**/*.js", "!**/node_modules/**"],
+      "program": "${file}"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Jest Unit Current File",
+      "program": "${workspaceFolder}/node_modules/.bin/jest",
+      "args": ["${fileBasenameNoExtension}", "--runInBand", "--config", "${workspaceRoot}/tests/configurations/unit/jest.config.js"],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "windows": {
+        "program": "${workspaceFolder}/node_modules/jest/bin/jest"
+      }
+    },
   ]
 }
